@@ -9,8 +9,55 @@ REPO_OWNER = 'abbasturkoglu'
 REPO_NAME = 'arxiv-papers-daily'
 
 # Set new submission url of subject
-NEW_SUB_URL = 'https://arxiv.org/list/cs/new'
+NEW_SUB_URL = "https://arxiv.org/list/physics.geo-ph/new"
 
-# Keywords to search
-KEYWORD_LIST = [ "rgb-t tracking", "rgb-thermal", "rgb-thermal-tracking",
-                "rgb-t", "rgbt","rgb-t-fusion-tracking","rgb-tir","RGBT Object Tracking"]
+KEYWORD_LIST = [
+    # 深地实验室
+    "deep underground laboratory",
+    "deep underground lab",
+    "underground laboratory",
+    "deep underground",
+
+    # 岩石膨胀破裂
+    "rock dilatancy",
+    "rock dilation",
+    "rock fracture",
+    "rock failure",
+    "rock rupture",
+    "crack propagation",
+    "fracture propagation",
+
+    # 微弱磁信号
+    "weak magnetic signal",
+    "weak magnetic signals",
+    "ultra-weak magnetic field",
+    "weak magnetic field",
+    "magnetic anomaly",
+    "magnetic anomalies",
+    "seismo-magnetic signal",
+    "seismomagnetic signal",
+
+    # 原子磁强计
+    "atomic magnetometer",
+    "atomic magnetometers",
+    "optically pumped magnetometer",
+    "optically pumped magnetometers",
+    "quantum magnetometer",
+    "quantum magnetometry",
+
+    # 前兆识别
+    "precursor identification",
+    "precursor recognition",
+    "precursor detection",
+    "precursory signal",
+    "precursory signals",
+    "earthquake precursor",
+    "earthquake precursors",
+
+    # 响应机制
+    "response mechanism",
+    "response mechanisms",
+    "mechanism of response",
+    "coupling mechanism",
+    "failure mechanism",
+]
