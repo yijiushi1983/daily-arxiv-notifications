@@ -16,7 +16,6 @@ KEYWORD_LIST = [
     "deep underground laboratory",
     "deep underground lab",
     "underground laboratory",
-    "deep underground",
 
     # 岩石膨胀破裂
     "rock dilatancy",
